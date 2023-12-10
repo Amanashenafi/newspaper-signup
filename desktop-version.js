@@ -39,6 +39,13 @@ $("button").click(function(){
    
     
 })
+$("button").mouseover(function(){
+    $("button").addClass("hover")
+})
+$("button").mouseout(function(){
+    $("button").removeClass("hover")
+ })
+
 function error(){
     $("input").css("background-color","#FFE8E6");
     $("input").attr("placeholder","ash#loremcompany.com");

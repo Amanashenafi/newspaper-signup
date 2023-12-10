@@ -69,6 +69,10 @@ input{
     animation-duration: 0.3s;
     animation-iteration-count: infinite;
 }
+.hover{
+    background-color: #FF5869;
+    border-color: #FF5869;
+}
 
 @keyframes horizontal-shaking {
     0% { transform: translateX(0) }

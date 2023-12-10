@@ -28,3 +28,7 @@ button{
     box-shadow: 0 3px 4px 0 #DBEDF3;
     opacity: 0.5;
 }
+.hover{
+    background-color: #FF5869;
+    border-color: #FF5869;
+}

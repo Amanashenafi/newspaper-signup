@@ -3,6 +3,14 @@ $("button").click(function(){
     $("button").css("border-color","#FF5869");
     buttonAnimation();
 })
+
+$("button").mouseover(function(){
+  $("button").addClass("hover")
+})
+$("button").mouseout(function(){
+  $("button").removeClass("hover")
+})
+
 function buttonAnimation(){
     $("button").addClass("pressed")
     setTimeout(function(){
