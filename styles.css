@@ -1,0 +1,83 @@
+body{
+    display:grid;
+    grid-template: 1fr / 50% 50%;
+    padding:15px;
+}
+h1{
+    margin-bottom: 15px;
+    font-size: 3.1rem;
+    color: #242742;
+}
+.left-div{
+    margin-left:47%;
+    margin-top:45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+button{
+    background-color:#242742 ;
+    color:white;
+    height: 55px;
+    width: 330px;
+    border-radius: 10px;
+}
+.grey{
+    color:#434242;
+}
+.list{
+    margin:27px 0;
+    padding-left:0;
+}
+li{
+    background: url("icon-list.svg") no-repeat left top;
+    list-style: none;
+    padding-left:35px;
+    padding-bottom:20px;
+    padding-top:5px;
+    line-height:0.8;
+    
+}
+
+.email{
+    font-size:12px;
+}
+input{
+    height: 50px;
+    width: 320px;
+    border-radius: 10px;
+    border-color:#dddddd;
+    border-style: solid;
+    margin-bottom:10px;
+    text-indent: 20px;
+    
+}
+
+::placeholder{
+    color:#B4B4B3;
+}
+.color-changer::-webkit-input-placeholder {
+    color: #D49D97;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+
+}
+.shake{
+    animation-name: horizontal-shaking;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+}
+  
+
+
+

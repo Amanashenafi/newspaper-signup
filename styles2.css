@@ -1,0 +1,30 @@
+div{
+    margin-top: 50px;
+    margin-left: 600px;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    margin-top: 35px;
+    margin-bottom: 18px;
+    font-size: 3.1rem;
+    color: #242742;
+}
+img{
+    width:50px;
+}
+p{
+    color:#434242;
+    font-size:14px;
+    margin-bottom:40px;
+}
+button{
+    background-color:#242742 ;
+    color:white;
+    height: 50px;
+    width: 330px;
+    border-radius: 10px;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
